@@ -1,0 +1,48 @@
+# Node modules (frontend and backend)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/build/
+server/build/
+dist/
+*.log
+
+# Environment variables
+.env
+.env.*  # if using environment-specific files like .env.production
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sw?
+
+# NPM/Yarn files
+package-lock.json
+yarn.lock
+
+# Coverage reports
+coverage/
+client/coverage/
+server/coverage/
+
+# React specific
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Express specific
+server/tmp/
+server/logs/
+
+# Optional: ignore test output
+*.test.js.snap
+
+# Optional: ignore specific editor backups
+*~
